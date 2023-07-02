@@ -137,7 +137,7 @@ function restartGame() {
   gameover = false;
   speed = initialSpeed;
   plane.x = 225;
-  plane.y = 450;
+  plane.y = 420;
   document.getElementById("restartButton").style.display = "none";
   update(); // Reinicia o loop do jogo
 }
